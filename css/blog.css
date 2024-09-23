@@ -1,0 +1,23 @@
+@import url("header.css");
+@import url("footer.css");
+
+.container{
+    height: 100vh;
+    background-color: black;
+    
+    color: white;
+    display: grid;
+    grid-template-rows: 20% auto 20%;
+    grid-template-columns: auto auto auto auto;
+    
+    grid-template-areas: 
+    "hdr hdr hdr hdr"
+    "cntnt cntnt cntnt cntnt"
+    "ftr ftr ftr ftr";
+
+}
+
+.blog-name{
+    color:rgb(233, 180, 6); 
+    font-size: 2em;
+}

@@ -22,26 +22,28 @@
         <header class="header">
 
             <nav class="navigation-bar">
-                <a href="#" id="home"> home </a>
+                <a href="./blog.html" id="home"> home </a>
                 <a href="#" id="about"> about</a>
                 <a href="#" id="subscribe"> subscribe </a>
 
             </nav>
             
-            <h1 class="title">
-                Welcome to <span> SAH Blog</span>
-            </h1>
+            <div class="full-title">
+                <h1 class="title">
+                    Welcome to <br><span class="blog-name"> SAH Blog</span>
+                </h1>
 
-            <p class="welcome-message">
-                where you share and gain knowledge
-            </p>
-            
-            <form>
+                <p class="welcome-message">
+                    where you share and gain knowledge
+                </p>
+            </div>
+
+            <form class="search-bar">
                 <input type="text" placeholder="Search"/>
                 <button type="submit"><i class="fa fa-search"></i></button>
             </form>
         </header>
-
+<!---
         <div class="post-grid">
             <div class="post">
                 <img src="" alt="title" class="post-cover">
@@ -52,18 +54,22 @@
             </div>
 
         </div>
-
+    -->
         <footer class="footer">
-            <h5> contact</h5>
-            <p> linked in: </p>
-            <p> faceboook:</p>
-            <p> email: ahmedhesham122000@gmail.com</p>
-            <h6> copy rights: ahmed Hehsam</h6>
-
-            <p>
-                Here wehere you can find what you need
+            <div class="contacts">
+                <h5> contact</h5>
+                <p> linked in: </p>
+                <p> faceboook:</p>
+                <p> email: ahmedhesham122000@gmail.com</p>
+                <h6> copy rights: ahmed Hehsam</h6>
+            </div>
+            
+            <p id="slogan">
+                <span class="blog-name"> SAH </span><br>Simple Answers Here 
             </p>
+            
             <button class="subscribe-button">subscribe</button>
         </footer>
+
     </body>
 </html>
