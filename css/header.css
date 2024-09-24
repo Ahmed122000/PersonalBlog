@@ -4,6 +4,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    background-color: #222222;
 }
 
 .navigation-bar{
@@ -24,10 +25,11 @@
 }
 
 #home{
-    color: white;
-    background-color:rgb(233, 180, 6); 
-    text-decoration: underline;
+    color: #ddd8ce;
+    background-color:#7234fa; 
     font-weight: bold;
+    border-radius: 40%;
+    padding: 5px 5px 5px 10px;
 }
 
 .welcome-message{
@@ -47,16 +49,24 @@
 
 .search-bar input[type=text]{
     width: 80%;
+    height: 30px;
 }
 
 .search-bar input[type=text]::placeholder{
     color: black;
     font-size: large;
 }
+.search-bar button{
+    height: 35px;
+    width: 35px;
+}
 
 @media(max-width: 1000px) {
     .navigation-bar{
         display: flex;
         flex-direction: column;
+    }
+    .navigation-bar a{
+        margin: 5px;
     }
 }

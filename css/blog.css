@@ -1,19 +1,22 @@
 @import url("header.css");
+@import url("content.css");
 @import url("footer.css");
 
 .container{
     height: 100vh;
-    background-color: black;
+    background-color: #334464;
     
-    color: white;
+    color: #ddd7ce;
     display: grid;
-    grid-template-rows: 20% auto 20%;
+    grid-template-rows: auto 1fr auto;
     grid-template-columns: auto auto auto auto;
     
     grid-template-areas: 
     "hdr hdr hdr hdr"
     "cntnt cntnt cntnt cntnt"
     "ftr ftr ftr ftr";
+
+    margin: 0px 0px;
 
 }
 
