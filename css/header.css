@@ -61,12 +61,47 @@
     width: 35px;
 }
 
+/*for medium screens e.g. splitted screen on computer*/
 @media(max-width: 1000px) {
     .navigation-bar{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .navigation-bar a{
+        font-size: 1.2rem;
         margin: 5px;
+    }
+    .title{
+        font-size: 1.8rem;
+    }
+    .search-bar input[type=text]{
+        width: 70%;
+        height: 25px;
+    }
+    .search-bar :no-button{
+        height: 30px;
+        width: 30px;
+    }
+}
+
+
+/* for small screens e.g. mobile screens*/
+@media (max-width: 600px){
+    .header{
+        flex-direction: column;
+    }
+    .title{
+        font-size: 1.5rem;
+    }
+    .welcome-message{
+        font-size: 1rem;
+    }
+    .search-bar input[type=text]{
+        width: 80%;
+    }
+    .search-bar button{
+        height: 25px;
+        width: 25px;
     }
 }
