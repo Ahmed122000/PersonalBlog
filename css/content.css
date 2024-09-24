@@ -1,0 +1,97 @@
+.post-grid{
+    display: grid;
+    grid-area: "cntn";
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.post-card{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+background-color: #ddd8ce;
+color:#222222;
+border: 1px solid black;
+padding: 10px;
+margin: 0 10px;
+box-sizing: border-box; 
+border-radius: 5%;
+width: 100%;
+}
+
+.card-cover{
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 5%;
+}
+
+.post-title{
+    line-height: 1.5px;
+    margin-bottom: 10px;
+}
+
+.card-date{
+    font-size: 1.1rem;
+    margin-bottom: 10;
+
+}
+
+.card-description{
+    font-size: 1.1 rem;
+    max-width: 100%;
+}
+.card-button{
+    max-width: 100%;
+    font-size: 1.2rem;
+    color: white; 
+    background: #7234fa; 
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    padding: 2px 5px;
+    border-radius: 10%;
+}
+
+@media (max-width: 1000px){
+    .post-grid{
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 10px;
+    }
+    .post-title{
+        font-size: 1.3rem;
+    }
+
+    .post-card{
+        padding: 10px;
+        margin: 5px 10px;
+    }
+
+    .card-button{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 600px){
+    .post-grid{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .post-card{
+        margin: 0 0 0 100%;
+        align-self: center;
+    }
+    .post-title{
+        font-size: 1.2rem;
+    }
+
+    .card-button{
+        font-size: 1rem;
+        padding: 5px 10px;
+
+    }
+}
