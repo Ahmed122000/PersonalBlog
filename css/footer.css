@@ -1,0 +1,78 @@
+.footer{
+    grid-area: ftr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222222;
+    text-align: center;
+}
+
+.about{
+}
+.description{
+    max-width: 50%;
+}
+
+.subscribe-button{
+    width: 30%;
+    height: auto;
+    background-color: rgb(233, 180, 6);
+    font-size: 20px;
+    color: #ddd7ce;
+    font-weight: bold;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 10px 0; 
+}
+
+.socials li{
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+
+.socials a{
+    text-decoration: none;
+    border: 1px solid white; 
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+}
+
+.socials a i{
+    font-size: 1.2rem;
+    width: 20px;
+    height: 30px;
+}
+
+.fa-facebook{ 
+    color: #1877F2;
+}    
+    
+.fa-linkedin-square{
+    color: rgb(7, 98, 200);
+}
+.fa-google-plus{
+    color: #db4a39; 
+}
+
+.fa-github{
+    color: #4078c0;
+}
+.copyright{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.copyright h6{
+    margin: 10px 5px;
+}
+
