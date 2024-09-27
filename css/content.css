@@ -1,6 +1,6 @@
 .post-grid{
     display: grid;
-    grid-area: "cntn";
+    grid-area: "cntnt";
     grid-auto-rows: auto;
     grid-template-columns: repeat(5, 1fr);
     column-gap: 10px;
