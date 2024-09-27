@@ -61,7 +61,7 @@ SAH Blog/
 - **HTML5**: Structure of the webpage.
 - **CSS3**: Styling for the page, including grid layout, flexbox, and media queries.
 - **Font Awesome**: For the icons used in the search bar and social share buttons.
-- 
+  
 ## How to Use
 
 1. Clone the repository:
@@ -74,7 +74,7 @@ SAH Blog/
 ## Dependencies
 
 - [FontAwesome](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css): For icons used in the project.
-- 
+  
 
 ## Responsive Design
 
