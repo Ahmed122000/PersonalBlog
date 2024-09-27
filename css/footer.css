@@ -1,4 +1,4 @@
-@import url("social.css");
+@import url("social-icons.css");
 
 .footer{
     grid-area: ftr;
@@ -62,6 +62,7 @@
     margin: 10px 5px;
 }
 
+/*for medium screens e.g. splitted screen on computer/tablets*/
 @media (max-width: 1000px){
     .description{
         max-width: 70%;
@@ -78,7 +79,7 @@
     }
     
 }
-
+/* for small screens e.g. mobile screens*/
 @media (max-width: 600px){
     .description{
         max-width: 90%;

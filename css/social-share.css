@@ -1,0 +1,36 @@
+.social-share{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    position: fixed; 
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    box-shadow: 0 4px 40px -8px rgba(0, 0, 0, 0.3);
+    border-radius: 0 8px 8px 0;
+}
+.social-share a{
+    text-decoration: none;
+    padding: 12px 0;
+}
+
+.social-share a i{
+    margin: 0 16px;
+    font-size: 2.5rem;
+}
+
+.social-share a:hover i{
+    transform: scale(1.2);
+}
+
+/* for small screens e.g. mobile screens*/
+@media (max-width: 600px){
+    .social-share{
+        transform: scale(0.8);
+    }
+
+    .social-share a i{
+        margin: 0 8px;
+        font-size: 2rem;
+    }
+}

@@ -1,6 +1,7 @@
 @import url("header.css");
 @import url("footer.css");
-@import url("social.css");
+@import url("social-icons.css");
+@import url("social-share.css");
 
 .container{
     height: 100vh;
@@ -16,7 +17,6 @@
     margin: 0;
     padding: 0;
     row-gap: 15px;
-
 }
 
 .blog-name{
@@ -42,17 +42,17 @@
 
 .article-title{
     color: #222222;
-    text-align: center; /* Center the text within the title */
-    margin: 0 auto; /* Horizontally center the title */
+    text-align: center;
+    margin: 0 auto;
     width: fit-content;
     font-size: 2.5em;
 }
 
 .separator-line {
-    border: none; /* Remove default border */
-    border-top: 2px solid #ddd; /* Define the line style */
-    width: 80%; /* Match the width to your content */
-    margin: 20px auto; /* Center it and add spacing */
+    border: none; 
+    border-top: 2px solid #ddd;
+    width: 80%;
+    margin: 20px auto; 
 }
 
 .author-info{
@@ -65,31 +65,9 @@
     width:10%;
 }
 
-.social-share{
-    display: flex;
-    flex-direction: column;
-    row-gap: 16px;
-    position: fixed; 
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    box-shadow: 0 4px 40px -8px rgba(0, 0, 0, 0.3);
-    border-radius: 0 8px 8px 0;
-}
-.social-share a{
-    text-decoration: none;
-    padding: 12px 0;
-}
 
-.social-share a i{
-    margin: 0 16px;
-    font-size: 2.5rem;
-}
 
-.social-share a:hover i{
-    transform: scale(1.2);
-}
-
+/* for small screens e.g. mobile screens*/
 @media (max-width: 600px){
     .author-info{
         flex-direction: column;
@@ -100,9 +78,7 @@
         width: 30%;
     }
 
-    .social-share{
-        transform: scale(0.8);
-    }
+
 
     .article-title{
         font-size: 2em;
@@ -111,9 +87,6 @@
         width: 90%;
     }
 
-    .social-share a i{
-        margin: 0 8px;
-        font-size: 2rem;
-    }
+
     
 }

@@ -61,7 +61,7 @@
     width: 35px;
 }
 
-/*for medium screens e.g. splitted screen on computer*/
+/*for medium screens e.g. splitted screen on computer/tablets*/
 @media(max-width: 1000px) {
     .navigation-bar{
         display: flex;
