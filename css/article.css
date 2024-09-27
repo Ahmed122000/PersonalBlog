@@ -1,0 +1,91 @@
+@import url("header.css");
+@import url("footer.css");
+@import url("social.css");
+
+.container{
+    height: 100vh;
+    background-color: #334464;
+    
+    color: #ddd7ce;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    
+    grid-template-areas: 
+    "hdr"
+    "cntnt"
+    "ftr";
+
+    /*margin: 0px 0px;*/
+    row-gap: 15px;
+
+}
+
+.blog-name{
+    color:rgb(233, 180, 6); 
+    font-size: 2em;
+}
+
+#home{
+    background-color: #222222;
+    color:rgb(233, 180, 6); 
+    font-weight: normal;
+}
+
+.content{
+    grid-area: "cntnt";
+    width:80%; 
+    max-width: 1200px;
+    align-self: center;
+    margin: 0 auto;
+   
+}
+
+.article-title{
+    color: #222222;
+    text-align: center; /* Center the text within the title */
+    margin: 0 auto; /* Horizontally center the title */
+    width: fit-content
+}
+
+.separator-line {
+    border: none; /* Remove default border */
+    border-top: 2px solid #ddd; /* Define the line style */
+    width: 80%; /* Match the width to your content */
+    margin: 20px auto; /* Center it and add spacing */
+}
+
+.author-info{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.avatar{
+    border-radius: 25%;
+    width:10%;
+}
+
+.social-share{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    position: fixed; 
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    box-shadow: 0 4px 40px -8px rgba(0, 0, 0, 0.3);
+    border-radius: 0 8px 8px 0;
+}
+.social-share a{
+    text-decoration: none;
+    padding: 12px 0;
+}
+
+.social-share a i{
+    margin: 0 16px;
+    font-size: 2.5rem;
+}
+
+.social-share a:hover i{
+    transform: scale(1.2);
+}
