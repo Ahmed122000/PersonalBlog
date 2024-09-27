@@ -66,9 +66,9 @@ SAH Blog/
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/sah-blog.git
+    git clone https://github.com/Ahmed122000/PersonalBlog.git
     ```
-2. Open the `index.html` file in any web browser to view the blog.
+2. Open the `blog.html` file in any web browser to view the blog.
 3. Navigate to the blog page using the provided navigation bar to see all posts.
 
 ## Dependencies
