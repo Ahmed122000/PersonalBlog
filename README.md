@@ -86,7 +86,7 @@ The article page uses **CSS Grid** and **Flexbox** to adapt the layout across di
 
 This project uses media queries to enhance responsiveness:
 ```css
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     /* Adjustments for smaller screens */
 }
 ```
