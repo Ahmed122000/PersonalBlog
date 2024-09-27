@@ -5,20 +5,16 @@
 .container{
     height: 100vh;
     background-color: #334464;
-    
     color: #ddd7ce;
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-columns: auto auto auto auto;
-    
     grid-template-areas: 
     "hdr hdr hdr hdr"
     "cntnt cntnt cntnt cntnt"
     "ftr ftr ftr ftr";
-
     margin: 0px 0px;
     row-gap: 15px;
-
 }
 
 .blog-name{

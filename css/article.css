@@ -74,19 +74,16 @@
         align-items: center;
         text-align: center;
     }
+
     .avatar{
         width: 30%;
     }
 
-
-
     .article-title{
         font-size: 2em;
     }
+    
     .separator-line{
         width: 90%;
-    }
-
-
-    
+    } 
 }
