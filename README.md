@@ -24,7 +24,13 @@ The project includes:
   
 - **Post Cards**:
   - Each post is represented as a card with a cover image, title, date, description, and link to the full article.
-  
+  - 
+- **Responsive Design**: The layout adjusts to different screen sizes using CSS Grid, Flexbox, and media queries.
+
+- **Author Info Section**: Displays the author's avatar, name, and bio.
+
+- **Social Media Sharing**: Fixed social media icons for easy sharing, hidden on small screens for better usability.
+
 - **Footer**:
   - Contains an "About" section describing the blog's focus on software and AI.
   - Social media links (Facebook, Google Plus, GitHub, LinkedIn).
@@ -51,16 +57,36 @@ SAH Blog/
 └── LICENSE               # License for the project
 ```
 
+## Technologies Used
+- **HTML5**: Structure of the webpage.
+- **CSS3**: Styling for the page, including grid layout, flexbox, and media queries.
+- **Font Awesome**: For the icons used in the search bar and social share buttons.
+  
 ## How to Use
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/sah-blog.git
+    git clone https://github.com/Ahmed122000/PersonalBlog.git
     ```
-2. Open the `index.html` file in any web browser to view the blog.
+2. Open the `blog.html` file in any web browser to view the blog.
 3. Navigate to the blog page using the provided navigation bar to see all posts.
 
 ## Dependencies
 
 - [FontAwesome](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css): For icons used in the project.
+  
 
+## Responsive Design
+
+The article page uses **CSS Grid** and **Flexbox** to adapt the layout across different screen sizes. Here's how the page behaves on various devices:
+- On **larger screens** (desktops/laptops), the content is centered with a maximum width of 1200px.
+- On **tablets and smaller devices**, the layout adjusts to fit the screen width, and elements like the social share buttons are hidden for better usability.
+
+### Media Queries
+
+This project uses media queries to enhance responsiveness:
+```css
+@media (max-width: 600px) {
+    /* Adjustments for smaller screens */
+}
+```
