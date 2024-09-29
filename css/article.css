@@ -40,6 +40,28 @@
    
 }
 
+.article-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto; 
+    width: fit-content;
+}
+
+.title-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-caption {
+    text-align: center;
+    margin-top: 10px;
+    color: #ddd7ce;
+}
+
+
 .article-title{
     color: #222222;
     text-align: center;
@@ -82,7 +104,7 @@
     .article-title{
         font-size: 2em;
     }
-    
+
     .separator-line{
         width: 90%;
     } 

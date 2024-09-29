@@ -29,14 +29,12 @@ border-radius: 5%;
 }
 
 .post-title{
-    line-height: 1.5px;
     margin-bottom: 10px;
 }
 
 .card-date{
     font-size: 1.1rem;
-    margin-bottom: 10;
-
+    margin: 0;
 }
 
 .card-description{
