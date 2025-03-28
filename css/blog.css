@@ -3,21 +3,32 @@
 @import url("footer.css");
 
 .container{
-    height: 100vh;
-    background-color: #334464;
-    color: #ddd7ce;
+    min-height: 100vh;
+    background-color: #f5f7fa;
+    color: #333;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    grid-template-columns: auto auto auto auto;
     grid-template-areas: 
     "hdr hdr hdr hdr"
     "cntnt cntnt cntnt cntnt"
     "ftr ftr ftr ftr";
-    margin: 0px 0px;
-    row-gap: 15px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    width: 100%;
 }
 
 .blog-name{
-    color:rgb(233, 180, 6); 
+    color: #7234fa; 
     font-size: 2em;
+    font-weight: 800;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a, button{
+    transition: all 0.3s ease;
 }

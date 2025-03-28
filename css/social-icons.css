@@ -1,27 +1,31 @@
-.fa-facebook{ 
-    color: #1877F2;
+.fa{
+    font-size: 1.2rem;
+}
+
+.fa-facebook:hover{ 
+    color: #1877f2;
 }    
     
-.fa-linkedin-square, .fa-linkedin{
-    color: rgb(7, 98, 200);
+.fa-linkedin-square:hover{
+    color: #0a66c2;
 }
 
-.fa-google-plus{
-    color: #db4a39; 
+.fa-google-plus:hover{
+    color: #db4437; 
 }
 
-.fa-github{
+.fa-github:hover{
     color: #4078c0;
 }
 
-.fa-twitter{
-    color: #1DA1F2;
+.fa-twitter:hover{
+    color: #1da1f2;
 }
 
-.fa-telegram{
+.fa-telegram:hover{
     color: #0088cc;
 }
 
-.fa-whatsapp{
-    color: 	#075E54;
+.fa-whatsapp:hover{
+    color: #25d366;
 }

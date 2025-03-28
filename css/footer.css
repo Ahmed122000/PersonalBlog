@@ -5,114 +5,95 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #222222;
+    background-color: #2c3e50;
+    color: white;
     text-align: center;
-    padding: 0;
-    margin: 0;
+    padding: 2rem 1rem 0;
+    margin-top: auto;
 }
 
 .description{
-    max-width: 50%;
+    max-width: 800px;
+    margin: 1rem auto;
+    color: #ecf0f1;
+    line-height: 1.6;
 }
 
 .subscribe-button{
-    width: 30%;
-    height: auto;
-    background-color: rgb(233, 180, 6);
-    font-size: 20px;
-    color: #ddd7ce;
-    font-weight: bold;
+    width: 200px;
+    padding: 0.8rem 1rem;
+    background-color: #7234fa;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    margin: 1.5rem 0;
+    cursor: pointer;
+}
+
+.subscribe-button:hover{
+    background: #5a2ad4;
+    transform:translateY(-2px);
 }
 
 .socials{
     list-style: none;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem 0 10px 0; 
-}
-
-.socials li{
-    text-decoration: none;
-    margin: 0 10px;
-
+    gap: 1.5rem;
+    padding: 0;
+    margin: 1.5rem 0; 
 }
 
 .socials a{
-    text-decoration: none;
-    border: 1px solid white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
     color: white;
-    padding: 5px;
+    transition: all 0.3s ease;
 }
 
-.socials a i{
-    font-size: 1.2rem;
-    width: 20px;
-    height: 30px;
+.socials a:hover{
+    background: #7234fa;
+    transform: translateY(-3px);
 }
 
 .copyright{
-    background-color: black;
+    background-color: #1a252f;
     width: 100%;
+    padding: 1rem;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    margin-top: auto;
 }
 
 .copyright h6{
-    margin: 10px 5px;
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #bdc3c7;
 }
 
 /*for medium screens e.g. splitted screen on computer/tablets*/
-@media (max-width: 1000px){
+@media (max-width: 768){
     .description{
-        max-width: 70%;
-    }
-
-    .subscribe-button{
-        width: 50%;
+        max-width: 90%;
     }
     
-    .socials a i{
-        font-size: 1rem;
-        width: 18px;
-        height: 25px;
+    .socials{
+        gap: 1rem;
     }
     
 }
 /* for small screens e.g. mobile screens*/
-@media (max-width: 600px){
-    .description{
-        max-width: 90%;
-    }
-
-    .subscribe-button{
-        width: 70%;
-        font-size: 16px;
-    }
-
-    .socials{
-        flex-direction: column;
-    }
-
-    .socials li{
-        margin: 5px 0;
-    }
-
-    .socials a i{
-        font-size: 1rem;
-        width: 18px;
-        height: 25px;
-    }
-
+@media (max-width: 480px){
     .copyright{
         flex-direction: column;
-        align-items: center;
-    }
-
-    .copyright h6{
-        margin: 5px 0;
+        gap: 0.5rem;
+        text-align: center;
     }
 }
